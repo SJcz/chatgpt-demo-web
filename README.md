@@ -31,11 +31,8 @@ npm install
 
 4. Start node server:  
 ```
-npm run serve
+npm run start
 ```
 
-aftr server start, it will start webscoket server and a http server. 
-* http server default prot: 10010. 
-* websocket default port: 9090. 
+5. Now you can visit localhost:8080 to test OpenAI API.
 
-if you want change webscoket port, you can modify `WS_PORT` filed of .env file in the root folder
