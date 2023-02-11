@@ -1,0 +1,8 @@
+# 记录 docker 快速启动的命令
+
+# web 启动, 注意最后面不要带任何命令 比如 nginx
+# 因为 nginx 基础镜像自带了 nginx -g daemon off 命令
+docker run -d -p 80:80 --name onlyone_web_x.x.x 626040875/onlyone_web_x.x.x
+
+# server 启动命令
+docker run -d -p 9090:9090 -p 10010:10010 --link redis:redis --name onlyone_server_1.3.0 -v /data/docker/onlyone_server/avatars:/src/app/avatars 626040875/onlyone_server:1.3.0
