@@ -75,7 +75,8 @@ export default {
       return this.item.user.name === 'asker' ? askerAvatar : chargptAvatar
     },
     markedContent() {
-      const replaceContent = this.item.message.content.replace(/\n/g, '<br>').replace(/。/g, '。<br>')
+      let replaceContent = this.item.message.content.replace(/\n/g, '<br>').replace(/。/g, '。<br>')
+      replaceContent = replaceContent.replace(/\./g, '.<br><br>')
       return marked.parse(replaceContent.substring(4))
       // return replaceContent
     },
