@@ -34,5 +34,5 @@ npm install
 npm run start
 ```
 
-5. Now you can visit localhost:8080 to test OpenAI API.
+5. Now you can visit http://localhost:8080 to test OpenAI API.
 
