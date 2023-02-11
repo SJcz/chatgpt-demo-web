@@ -3,9 +3,9 @@
     <div class="row main-div">
       <div class="col-lg-6 col-lg-offset-3">
         <h1>Chatgpt Demo</h1>
-        <h2>书法评测项目 chatgpt demo</h2>
-        <h2>让每个同事都可以轻松使用chatgpt</h2>
-        <button><router-link to="/chat">进入Demo</router-link></button>
+        <h2>you can change conent of this</h2>
+        <h2>this project may have many bug or issue~</h2>
+        <button><router-link to="/chat">Enter Demo</router-link></button>
       </div>
     </div>
   </div>
