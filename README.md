@@ -37,5 +37,5 @@ npm run start
 5. Now you can visit [http://localhost:8080](http://localhost:8080) to test OpenAI API.
 
 ## Snipaste
-<image src="/snipaste/Snipaste_chat.png" width="900"/>
+<image src="/snipaste/Snipaste_chat.png" width="1200"/>
 
