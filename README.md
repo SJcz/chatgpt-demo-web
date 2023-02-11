@@ -21,7 +21,7 @@ git clone git@github.com:SJcz/chatgpt-demo-web.git
 npm install
 ```
 
-3. Modify src/config/config.json file in the root folder, set your *chatgpt-demo-server* IP and Port key in the following format:  
+3. Modify `src/config/config.json` file in the root folder, set your *chatgpt-demo-server* IP and Port key in the following format:  
 ```
 {
   "ws_server_host": your chatgpt-demo-server ip,
@@ -34,7 +34,7 @@ npm install
 npm run start
 ```
 
-5. Now you can visit [http://localhost:8080](http://localhost:8080?_blank) to test OpenAI API.
+5. Now you can visit [http://localhost:8080](http://localhost:8080) to test OpenAI API.
 
 ## Snipaste
 <image src="/snipaste/Snipaste_chat.png" width="300"/>
