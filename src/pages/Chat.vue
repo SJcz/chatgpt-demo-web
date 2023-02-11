@@ -90,7 +90,7 @@ export default {
       this.connectInfo.push({
         type: "normal",
         date: this.fromatDate(new Date()),
-        info: "正在连接服务器...",
+        info: "connecting to server...",
       });
       this.websocketSession.on("open", this.websocket_onOpen.bind(this));
       this.websocketSession.on("error", this.websocket_onError.bind(this));
@@ -105,15 +105,15 @@ export default {
       this.connectInfo.push({
         type: "success",
         date: this.fromatDate(new Date()),
-        info: "成功连接上服务器",
+        info: "connect to server successfully!",
       });
     },
     websocket_onClose(e) {
-      console.log("断开连接", e);
+      console.log("disconnect", e);
       this.connectInfo.push({
         type: "error",
         date: this.fromatDate(new Date()),
-        info: "跟服务器断开连接",
+        info: "disconnect from server!",
       });
     },
     websocket_onError(err) {
@@ -121,7 +121,7 @@ export default {
       this.connectInfo.push({
         type: "error",
         date: this.fromatDate(new Date()),
-        info: "连接错误",
+        info: "connect error.",
       });
     },
     messageHandler_getResponse(responseMsg) {

@@ -12,7 +12,7 @@
       ref="textarea"
       v-model="textareaText"
       rows="3"
-      placeholder=""
+      placeholder="[enter] send. [ctrl + enter] new line"
       @keydown.enter="keyDown"
     />
   </div>

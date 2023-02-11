@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <span>{{ roomId }}</span>
-    <a href="https://github.com/SJcz/OnlyOne" target="_blank" title="https://github.com/SJcz/OnlyOne">
+    <a href="https://github.com/SJcz/chatgpt-demo-web" target="_blank" title="https://github.com/SJcz/chatgpt-demo-web">
       <img :src="github_icon" class="img-rounded img-icon" />
     </a>
     

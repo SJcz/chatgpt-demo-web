@@ -38,7 +38,8 @@
 </template>
 
 <script>
-import biaoqing_icon from "@/assets/biaoqing_icon.svg";
+import askerAvatar from "@/assets/asker-avatar.png";
+import chargptAvatar from "@/assets/chatgpt-avatar.png";
 import marked from 'marked'
 export default {
   props: {
@@ -71,7 +72,7 @@ export default {
       return this.$store.state.user;
     },
     avatarPath() {
-      return this.item.user.name === 'asker' ? biaoqing_icon : biaoqing_icon
+      return this.item.user.name === 'asker' ? askerAvatar : chargptAvatar
     },
     markedContent() {
       const replaceContent = this.item.message.content.replace(/\n/g, '<br>').replace(/。/g, '。<br>')
