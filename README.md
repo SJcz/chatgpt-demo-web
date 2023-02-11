@@ -1,10 +1,12 @@
+[简体中文](https://github.com/SJcz/chatgpt-demo-web/blob/main/README-zh.md) | [English](https://github.com/SJcz/chatgpt-demo-web/blob/main/README.md)
+
 # chatgpt-demo-web
 web application of chatgpt demo
 
 ## Intro
-A web application that allows users to interact with OpenAI API, It just a demo to test OpenAI API.     
+A web application that allows users to interact with `OpenAI API`, It just a demo to test `OpenAI API`.     
   
-This project is not directly calling OpenAI API, you also need start [chatgpt-demo-server](https://github.com/SJcz/chatgpt-demo-server).
+This project is not directly calling `OpenAI API`, you also need start [chatgpt-demo-server](https://github.com/SJcz/chatgpt-demo-server).
   
 * web application interact with [chatgpt-demo-server](https://github.com/SJcz/chatgpt-demo-server) by websocket 
 * [chatgpt-demo-server](https://github.com/SJcz/chatgpt-demo-server) interact with OpenAI API
