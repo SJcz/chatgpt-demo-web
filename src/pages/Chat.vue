@@ -221,6 +221,7 @@ export default {
 .room-main {
   padding-top: 1%;
   display: flex;
+  height: 90%;
 }
 
 .padding-0 {
@@ -237,7 +238,7 @@ export default {
 }
 
 .room-scroller {
-  height: 500px;
+  height: 80%;
   background-color: rgba(255, 255, 255, 0.4);
   border-bottom: 1px solid #aaa;
   border-left: 1px solid #aaa;
